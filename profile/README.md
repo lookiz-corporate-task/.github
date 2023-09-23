@@ -66,7 +66,9 @@ _lookiz 계정을 태그하는 행위가 Zapier 의 트리거가 되어 자동�
 ### 🦒  시스템 구조도
 
 ---
+<p align="center">
 
 <img width="600" alt="image" src="https://github.com/lookiz-corporate-task/.github/assets/66009926/d27a1273-638a-49e8-8d2f-c64ce30f1fe1">
 
+</p>
 <br/>
