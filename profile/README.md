@@ -1,12 +1,72 @@
-## Hi there 👋
+<p align="center">
 
-<!--
+  <img src="https://github.com/lookiz-corporate-task/.github/assets/66009926/4057d890-c865-47c5-aa48-12efbb96ff85" alt="Deploy">
 
-**Here are some ideas to get you started:**
+</p>
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+
+<h2 align="center"> "인스타그램 연동을 통한 유저의 유입 및 서비스 활성화 방안 아이디어" 사파리 팀 입니다. </h2>
+
+<br/>
+
+### 🦒 프로젝트 소개 영상
+
+---
+
+<p align="center">
+
+<a href="https://youtu.be/vOECZVPOfe0">
+  <img src="http://img.youtube.com/vi/vOECZVPOfe0/0.jpg" alt="Deploy">
+</a>
+
+</p>
+
+<br/>
+
+### 🦒 인스타 연동이 왜 필요할까요?
+
+---
+
+#### Lookiz 타겟 유저는 인스타그램과 같은 대형 SNS 플랫폼에서 아이들의 사진을 올리며, 충분히 만족스러운 경험을 하고 있습니다.
+
+Lookiz는 아이들의 데일리룩을 올릴 수 있는 커뮤니티인 트렌드를 통해 유저를 유입시키고, 아이들이 입지 않는 옷을 서로 거래할 수 있는 리셀 마켓 등의 커머스로 수익을 창출하는 구조입니다.
+
+그러나 Lookiz의 타겟 유저인 33세~39세 사이의 어머니들은 인스타그램과 같은 대형 SNS 플랫폼에서 아이들의 사진을 올리며, 충분히 만족스러운 경험을 하고 있습니다.
+
+그로 인해, 룩키즈를 설치하고, 이곳에 사진을 올리는 과정까지 즉, 서비스 유입부터 커뮤니티 참여까지 허들이 매우 높습니다.
+
+그래서 인스타그램에 게시물을 올리면, 자동으로 룩키즈 커뮤니티에 함께 올라오도록 새롭게 설계하여 서비스로 유입시키고, 커뮤니티 서비스의 참여에 대한 허들을 낮추도록 했습니다.
+
+그 결과 자연스럽게 Lookiz에서 제공하는 이커머스 서비스로 유저를 유도할 수 있게 됩니다.
+
+<br/>
+
+### 🦒 사파리팀이 리뉴얼한 Lookiz는 어떤 기능을 제공하나요?
+
+---
+
+#### 📌 Zapier를 활용하여 _lookiz 계정이 맨션이 된 게시글을 가져옵니다.
+_lookiz 계정을 태그하는 행위가 Zapier 의 트리거가 되어 자동으로 저희 서버에 해당 게시물 정보를 보내는 액션을 하도록 구현했습니다.
+
+단, Zapier 유료 플랜이 아닌 프리 티어를 사용하는 관계로 인스타그램에 올라온 게시물은 15분 간격으로 Zapier 액션이 수행이 됩니다.
+
+이렇게 전달된 게시물 정보는 DB에 저장되고, 룩키즈 커뮤니티 게시판에 들어가면 저장된 게시물들을 불러와, 좋아요 기능으로 간단한 상호 작용을 할 수 있도록 했습니다.
+
+<br/>
+
+#### 📌 Instagram Api를 통해 Lookiz 계정과 Instagram 계정을 연동합니다.
+마이페이지에서는 룩키즈 계정과 인스타그램 계정을 연동했고, 연동된 인스타그램 ID 식별값과 인스타그램에 게시물을 올릴 때 포함되는 유저의 ID 식별값을 맵핑하여 내가 작성했던 게시물만 필터링하여 확인할 수도 있었습니다.
+
+이러한 기능들과 함께 향후 원더윅스에서 유튜버가 개인 콘텐츠를 통해 수익을 창출할 수 있듯이 적절한 기준을 마련하여 타겟 유저에게 수익이 생기게 하거나, 혹은 별도의 리워드를 줄 수 있다면 간단한 기능만으로 유저에게 더 큰 경험과 가치를 제공할 수 있다고 생각합니다.
+
+이 부분도 마찬가지로 Instagram API 활용 승인에 시간적 제한이 있어 인가 전에 테스트 해볼 수 있는 테스트 계정이 제한되어 있어, 인스타그램 계정 연동에 제한이 있습니다.
+
+<br/>
+
+### 🦒  시스템 구조도
+
+---
+
+<img width="600" alt="image" src="https://github.com/lookiz-corporate-task/.github/assets/66009926/d27a1273-638a-49e8-8d2f-c64ce30f1fe1">
+
+<br/>
